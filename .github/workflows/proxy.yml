@@ -27,7 +27,7 @@ jobs:
       - name: Pull Composer
         run: |
           cd src/web-api
-          composer update -oW
+          composer update -oW --ignore-platform-req=ext-swoole --ignore-platform-req=ext-xlswriter
       - name: Build Composer
         run: |
           composer install -o
