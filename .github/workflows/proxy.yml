@@ -30,6 +30,8 @@ jobs:
           composer update -oW --ignore-platform-reqs
           cd ../swow-skeleton
           composer update -oW --ignore-platform-reqs
+          cd ../web-api
+          composer update -oW --ignore-platform-reqs
       - name: Build Composer
         run: |
           composer install -o
