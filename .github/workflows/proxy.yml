@@ -27,7 +27,7 @@ jobs:
       - name: Pull Composer
         run: |
           cd src/web-api
-          composer update -oW --ignore-platform-reqs
+          composer update -oW
       - name: Build Composer
         run: |
           composer install -o
