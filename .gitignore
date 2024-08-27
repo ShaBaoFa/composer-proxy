@@ -1,3 +1,5 @@
 .env
 vendor
 build
+*.xml
+*.iml
