@@ -24,7 +24,7 @@
     "ext-swoole": ">=5.0",
     "ext-xlswriter": "*",
     "ext-xml": "*",
-    "baoziyoo/hyperf-captcha": "^1.0",
+    "ella123/hyperf-captcha": "^3.1",
     "hyperf/amqp": "^3.1",
     "hyperf/async-queue": "^3.1",
     "hyperf/cache": "3.1.*",
