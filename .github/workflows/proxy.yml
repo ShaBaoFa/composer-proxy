@@ -26,7 +26,7 @@ jobs:
           coverage: none
       - name: Pull Composer
         run: |
-          cd src/web-api
+          cd src/shabao-admin
           composer update -oW --ignore-platform-req=ext-swoole --ignore-platform-req=ext-xlswriter
       - name: Build Composer
         run: |
